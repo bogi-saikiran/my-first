@@ -23,6 +23,14 @@ System.out.println("Area of triangle=="+((length*breadth)/2));
 
 
 
+
+}
+class circle extends Shape{
+    void printArea(){
+        System.out.println("AREA OF circle");
+        radius=input.nextInt();
+        System.out.println("AREA OF CIRCLE=  "+(3.14f*radius*radius));
+    }
 }
 }
 class Main{
@@ -32,6 +40,8 @@ rectangle r1=new rectangle();
 r1.printArea();
 triangle t1=new triangle();
 t1.printArea();
+circle c1=new circle();
+c1.printArea();
 }
 }
  
