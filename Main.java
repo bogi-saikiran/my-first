@@ -31,7 +31,14 @@ class circle extends Shape{
         radius=input.nextInt();
         System.out.println("AREA OF CIRCLE=  "+(3.14f*radius*radius));
     }
-}
+
+class Square extends Shape{
+    void printArea(){
+        System.out.println("Sqyare area");
+        length=input.nextInt();
+        System.out.println("Area of Square ="+(length*length);)
+    }
+}}
 }
 class Main{
 public static void main(String[] args){
